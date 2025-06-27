@@ -44,15 +44,18 @@ const Hero = () => {
                 </a>
               </div>
               
-              <div className="flex justify-center space-x-6">
-                <a href="#" className="text-gray-400 hover:text-purple-400 transform hover:scale-110 transition-all duration-200">
+              <div className="flex justify-center space-x-6 items-center mt-6">
+                <a href="https://github.com/MariamChtioui" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transform hover:scale-110 transition-all duration-200 flex items-center">
                   <Github size={28} />
+                  <span className="ml-2 hidden sm:inline">@MariamChtioui</span>
                 </a>
-                <a href="#" className="text-gray-400 hover:text-purple-400 transform hover:scale-110 transition-all duration-200">
+                <a href="https://www.linkedin.com/in/mariam-chtioui-32b458241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transform hover:scale-110 transition-all duration-200 flex items-center">
                   <Linkedin size={28} />
+                  <span className="ml-2 hidden sm:inline">LinkedIn</span>
                 </a>
-                <a href="#" className="text-gray-400 hover:text-purple-400 transform hover:scale-110 transition-all duration-200">
+                <a href="mailto:ch745ma@gmail.com" className="text-gray-400 hover:text-purple-400 transform hover:scale-110 transition-all duration-200 flex items-center">
                   <Mail size={28} />
+                  <span className="ml-2 hidden sm:inline">ch745ma@gmail.com</span>
                 </a>
               </div>
             </div>
