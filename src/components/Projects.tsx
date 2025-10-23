@@ -107,19 +107,21 @@ const Projects = () => {
           <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto"></div>
         </div>
         
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-8">
           {projects.map((project, index) => (
             <Card 
               key={index}
               className="bg-gradient-to-br from-slate-800 to-slate-900 border-slate-700 overflow-hidden hover:transform hover:scale-105 transition-all duration-300 group"
             >
               <div className="relative overflow-hidden">
-                <img 
-                  src={project.image} 
-                  alt={project.title}
-                  className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent"></div>
+                <div className="relative w-full overflow-hidden" style={{ aspectRatio: '16 / 9' }}>
+                  <img 
+                    src={project.image} 
+                    alt={project.title}
+                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent"></div>
+                </div>
               </div>
               
               <div className="p-6">

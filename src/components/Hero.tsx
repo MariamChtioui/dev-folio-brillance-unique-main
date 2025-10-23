@@ -63,13 +63,8 @@ const Hero = () => {
             {/* Photo dans un grand rectangle */}
             <div className="flex justify-center md:justify-end">
               <div className="relative">
-                <div className="w-96 h-[500px] rounded-2xl bg-gradient-to-r from-purple-400 to-pink-400 p-2">
-                  <div className="w-full h-full rounded-xl bg-slate-800 flex items-center justify-center overflow-hidden">
-                    {/* 
-                    POUR CHANGER LA PHOTO :
-                    1. Placez votre image dans le dossier public/ (ex: public/mariam-photo.jpg)
-                    2. Remplacez le src ci-dessous par le nom de votre fichier
-                    */}
+                <div className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl rounded-2xl bg-gradient-to-r from-purple-400 to-pink-400 p-2">
+                  <div className="w-full rounded-xl bg-slate-800 flex items-center justify-center overflow-hidden" style={{ aspectRatio: '3 / 4' }}>
                     {!imageError ? (
                       <img 
                         src="/mariam-photo.jpg" 
@@ -78,7 +73,7 @@ const Hero = () => {
                         onError={() => setImageError(true)}
                       />
                     ) : (
-                      <div className="text-gray-400 text-center">
+                      <div className="text-gray-400 text-center p-6">
                         <div className="text-8xl mb-6">📸</div>
                         <p className="text-lg mb-2">Ajoutez votre photo dans public/</p>
                         <p className="text-sm">Nom du fichier: mariam-photo.jpg</p>
