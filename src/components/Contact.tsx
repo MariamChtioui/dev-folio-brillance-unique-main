@@ -56,7 +56,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-gray-400 text-sm">Email</p>
-                    <p className="text-white font-semibold">cht745ma@gmail.com</p>
+                    <p className="text-white font-semibold">chtmariam745@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -75,7 +75,7 @@ const Contact = () => {
                   <div>
                     <p className="text-gray-400 text-sm">Localisation</p>
                     <p className="text-white font-semibold">Casablanca, Maroc</p>
-                    <p className="text-gray-400 text-xs">Appartement n°09, Immeuble n°07, Résidence Mamoune<br/>Quartier Hay Al Qods, Arrondissement Sidi Bernoussi</p>
+                    <p className="text-gray-400 text-xs">Appartement n°09, Immeuble n°07, Résidence Mamoune, Quartier Hay Al Qods, Arrondissement Sidi Bernoussi</p>
                   </div>
                 </div>
               </div>

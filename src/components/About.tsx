@@ -14,12 +14,12 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-gray-300 leading-relaxed">
-              👩‍💻 Étudiante Ingénieure Développeuse en 4e année à l'EMSI, option MIAGE, avec plusieurs projets académiques et stages réussis dans le développement d'applications web, mobiles et embarquées.<br/>
-              Passionnée par les technologies modernes et motivée par l'impact que peut avoir une solution bien pensée.
+              👩‍💻 Étudiante en 5e année d'ingénierie informatique à l'EMSI, option MIAGE, avec plusieurs projets académiques et stages réussis en développement d'applications web, mobiles et embarquées.<br/>
+              Passionnée par les technologies modernes et motivée par l'impact d'une solution bien pensée.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed">
-              💡 Mon expertise couvre le développement full-stack avec des technologies comme Symfony, Django, Spring Boot, Angular et C++, ainsi que la programmation embarquée avec Arduino.<br/>
-              J'aime relever des défis techniques et créer des applications utiles, fiables et évolutives.
+              💡 Mon expertise couvre le développement full‑stack (Symfony, Django, Spring Boot, Angular, C++), la programmation embarquée (Arduino) et l'intégration d'APIs.<br/>
+              Disponible pour un stage de Projet de Fin d'Études (PFE) à Casablanca à partir de février 2026.
             </p>
             <div className="grid grid-cols-2 gap-4 pt-6">
               <div className="text-left sm:text-center">

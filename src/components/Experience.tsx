@@ -4,28 +4,39 @@ import { Calendar, MapPin } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Stage – SEWS CABIND MAROC (Projet SEWSTIT)",
-      company: "SEWS CABIND MAROC",
+      title: "Stage – AFRIQUA POOL TECHNOLOGIE",
+      company: "AFRIQUA POOL TECHNOLOGIE",
       location: "Casablanca, Maroc",
       period: "2025",
       description: [
-        "Conception et développement d'une application de gestion de stock IT",
-        "Mise en place d'alertes email/SMS et génération de rapports PDF",
+        "Implémentation et personnalisation d'un ERP Odoo (modules métiers)",
+        "Analyse des besoins, modélisation et développement de fonctionnalités",
+        "Optimisation des processus et intégration Odoo (APIs, sécurité)",
+        "Technologies : Odoo, PostgreSQL, Python"
+      ]
+    },
+    {
+      title: "Stage – SEWS CABIND MAROC (SEWSTIT)",
+      company: "SEWS CABIND MAROC",
+      location: "Casablanca, Maroc",
+      period: "2024",
+      description: [
+        "Application de gestion de stock IT avec alertes et rapports PDF",
+        "Mise en place d'alertes e‑mail/SMS, génération de rapports",
         "Technologies : Symfony, MySQL, Twig, xhtml2pdf, SwiftMailer, Twilio",
-        "Objectif : Automatiser la gestion et les alertes de stock critiques"
+        "Automatisation de la gestion et suivi de seuils critiques"
       ]
     },
     {
       title: "Stage – Développement Web – COSUMAR",
       company: "COSUMAR",
       location: "Casablanca, Maroc",
-      period: "Durée : 1 mois",
+      period: "2023",
       description: [
-        "Analyse des besoins client",
-        "Conception UI/UX et développement du site avec HTML/CSS/JS",
-        "Intégration base de données, rédaction de contenu",
-        "Tests utilisateurs & promotion via réseaux sociaux",
-        "Résultat : Site attractif et visibilité renforcée des produits"
+        "Analyse des besoins et conception UI/UX",
+        "Développement du site (HTML/CSS/JS) et intégration base de données",
+        "Rédaction de contenu et tests utilisateurs",
+        "Lancement et mise en visibilité des produits"
       ]
     }
   ];

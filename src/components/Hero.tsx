@@ -28,17 +28,13 @@ const Hero = () => {
               {/* Paragraphes séparés pour meilleure lisibilité */}
               <div className="space-y-4 md:space-y-6 max-w-2xl md:mx-auto">
                 <p className="text-lg md:text-2xl text-gray-300">
-                Passionnée par le développement d'applications web et mobiles modernes. 
-                <br /><br />
-                Forte d'expériences en gestion de stock IT, systèmes embarqués et conception UI/UX.
-                <br /><br />
-                Actuellement en 4e année à l'EMSI, je cherche à transformer les idées en solutions innovantes
+                  Étudiante en 5e année d'ingénierie informatique (EMSI — option MIAGE), passionnée par le développement d'applications web et mobiles modernes.
                 </p>
                 <p className="text-lg md:text-2xl text-gray-300">
-                  Forte d'expériences en gestion de stock IT, systèmes embarqués et conception UI/UX.
+                  Expériences en optimisation de processus, gestion de stock IT, systèmes embarqués (Arduino) et conception UI/UX.
                 </p>
                 <p className="text-lg md:text-2xl text-gray-300">
-                  Actuellement en 4e année à l'EMSI, je cherche à transformer les idées en solutions innovantes
+                  Disponible pour un stage de Projet de Fin d'Études (PFE) à partir de février 2026 à Casablanca.
                 </p>
               </div>
               
@@ -62,9 +58,9 @@ const Hero = () => {
                   <Linkedin size={28} />
                   <span className="ml-2 hidden sm:inline">LinkedIn</span>
                 </a>
-                <a href="mailto:ch745ma@gmail.com" className="text-gray-400 hover:text-purple-400 transform hover:scale-110 transition-all duration-200 flex items-center">
+                <a href="mailto:chtmariam745@gmail.com" className="text-gray-400 hover:text-purple-400 transform hover:scale-110 transition-all duration-200 flex items-center">
                   <Mail size={28} />
-                  <span className="ml-2 hidden sm:inline">ch745ma@gmail.com</span>
+                  <span className="ml-2 hidden sm:inline">chtmariam745@gmail.com</span>
                 </a>
               </div>
             </div>
