@@ -6,7 +6,7 @@ const Hero = () => {
   const [imageError, setImageError] = useState(false);
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-24 md:pt-28">
+    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-36 sm:pt-40 md:pt-48 scroll-mt-36 sm:scroll-mt-40 md:scroll-mt-48">
       {/* Background Animation */}
       <div className="absolute inset-0">
         <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-purple-500/20 rounded-full blur-3xl animate-pulse"></div>
