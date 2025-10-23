@@ -4,11 +4,11 @@ const About = () => {
   return (
     <section id="about" className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-left md:text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             À propos de moi
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mr-auto md:mx-auto"></div>
         </div>
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -22,7 +22,7 @@ const About = () => {
               J'aime relever des défis techniques et créer des applications utiles, fiables et évolutives.
             </p>
             <div className="grid grid-cols-2 gap-4 pt-6">
-              <div className="text-center">
+              <div className="text-left sm:text-center">
                 <div className="text-3xl font-bold text-purple-400">10+</div>
                 <div className="text-gray-400">projets académiques concrets</div>
               </div>
@@ -30,7 +30,7 @@ const About = () => {
                 <div className="text-3xl font-bold text-purple-400">2</div>
                 <div className="text-gray-400">stages professionnels en entreprise</div>
               </div>
-              <div className="text-center col-span-2">
+              <div className="text-left sm:text-center col-span-2">
                 <div className="text-3xl font-bold text-purple-400">8+</div>
                 <div className="text-gray-400">technologies maîtrisées</div>
               </div>

@@ -6,34 +6,43 @@ const Hero = () => {
   const [imageError, setImageError] = useState(false);
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-24 md:pt-28">
       {/* Background Animation */}
       <div className="absolute inset-0">
         <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-purple-500/20 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
       </div>
       
-      <div className="relative z-10 text-center px-4 max-w-6xl mx-auto">
+      <div className="relative z-10 text-left md:text-center px-4 max-w-6xl mx-auto">
         <div className="animate-fade-in">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Texte centré */}
-            <div className="text-center">
-              <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
+            <div className="text-left md:text-center">
+              <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
                 Bonjour, je suis
                 <span className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
                   Étudiante Ingénieure en Informatique
                 </span>
               </h1>
               
-              <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
+              {/* Paragraphes séparés pour meilleure lisibilité */}
+              <div className="space-y-4 md:space-y-6 max-w-2xl md:mx-auto">
+                <p className="text-lg md:text-2xl text-gray-300">
                 Passionnée par le développement d'applications web et mobiles modernes. 
                 <br /><br />
                 Forte d'expériences en gestion de stock IT, systèmes embarqués et conception UI/UX.
                 <br /><br />
                 Actuellement en 4e année à l'EMSI, je cherche à transformer les idées en solutions innovantes
-              </p>
+                </p>
+                <p className="text-lg md:text-2xl text-gray-300">
+                  Forte d'expériences en gestion de stock IT, systèmes embarqués et conception UI/UX.
+                </p>
+                <p className="text-lg md:text-2xl text-gray-300">
+                  Actuellement en 4e année à l'EMSI, je cherche à transformer les idées en solutions innovantes
+                </p>
+              </div>
               
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+              <div className="flex flex-col sm:flex-row gap-4 justify-start md:justify-center items-start md:items-center mb-12">
                 <a href="#projects">
                   <Button size="lg" className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105">
                     Voir mes projets
@@ -44,7 +53,7 @@ const Hero = () => {
                 </a>
               </div>
               
-              <div className="flex justify-center space-x-6 items-center mt-6">
+              <div className="flex justify-start md:justify-center flex-wrap gap-4 items-center mt-6">
                 <a href="https://github.com/MariamChtioui" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-400 transform hover:scale-110 transition-all duration-200 flex items-center">
                   <Github size={28} />
                   <span className="ml-2 hidden sm:inline">@MariamChtioui</span>
