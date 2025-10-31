@@ -5,6 +5,20 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
+      title: "Confort Brand – E-commerce React",
+      description: "Plateforme e-commerce moderne développée avec React pour la vente de produits de confort.",
+      technologies: ["React", "JavaScript", "CSS"],
+      tags: ["React", "E-commerce", "Web"],
+      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      title: "APT Odoo Invest – ERP Personnalisé",
+      description: "Implémentation et personnalisation d'un système ERP Odoo pour la gestion d'investissements.",
+      technologies: ["Odoo", "Python", "PostgreSQL"],
+      tags: ["Odoo", "ERP", "Investissement"],
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80"
+    },
+    {
       title: "EMSISmartPresence – App Mobile Android",
       description: "Application Android pour les professeurs de l'EMSI.",
       technologies: ["Java", "Android Studio"],
