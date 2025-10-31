@@ -58,9 +58,9 @@ const Hero = () => {
                   <Linkedin size={28} />
                   <span className="ml-2 hidden sm:inline">LinkedIn</span>
                 </a>
-                <a href="mailto:chtmariam745@gmail.com" className="text-gray-400 hover:text-purple-400 transform hover:scale-110 transition-all duration-200 flex items-center">
+                <a href="mailto:chtiouimariam745@gmail.com" className="text-gray-400 hover:text-purple-400 transform hover:scale-110 transition-all duration-200 flex items-center">
                   <Mail size={28} />
-                  <span className="ml-2 hidden sm:inline">chtmariam745@gmail.com</span>
+                  <span className="ml-2 hidden sm:inline">chtiouimariam745@gmail.com</span>
                 </a>
               </div>
             </div>
@@ -72,7 +72,7 @@ const Hero = () => {
                   <div className="w-full rounded-xl bg-slate-800 flex items-center justify-center overflow-hidden" style={{ aspectRatio: '3 / 4' }}>
                     {!imageError ? (
                       <img 
-                        src="/mariam-photo.jpg" 
+                        src="/PHOTO PRF.jpg" 
                         alt="Mariam Chtioui" 
                         className="w-full h-full object-cover rounded-xl"
                         onError={() => setImageError(true)}

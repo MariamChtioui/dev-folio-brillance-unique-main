@@ -56,7 +56,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-gray-400 text-sm">Email</p>
-                    <p className="text-white font-semibold">chtmariam745@gmail.com</p>
+                    <p className="text-white font-semibold">chtiouimariam745@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -84,11 +84,11 @@ const Contact = () => {
             <Card className="bg-gradient-to-br from-slate-800 to-slate-900 border-slate-700 p-8">
               <h3 className="text-xl font-bold text-white mb-4">Disponibilité</h3>
               <p className="text-gray-300 mb-4">
-                Je suis actuellement à la recherche d'un stage de Projet de Fin d'Année (PFA) à partir de juillet 2025, afin de mettre en pratique ma formation en informatique, réseaux et développement full-stack.
+                Je suis actuellement à la recherche d'un stage de Projet de Fin d'Études (PFE) à partir de février 2026, afin de mettre en pratique ma formation en informatique, réseaux et développement full-stack.
               </p>
               <div className="flex items-center space-x-2">
                 <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
-                <span className="text-green-400 font-semibold">Disponible pour stage PFA</span>
+                <span className="text-green-400 font-semibold">Disponible pour stage PFE 2026</span>
               </div>
             </Card>
           </div>
