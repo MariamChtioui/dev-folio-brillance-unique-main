@@ -44,7 +44,7 @@ const About = () => {
                 <ul className="space-y-3 text-gray-300 text-base list-disc list-inside">
                   <li><b>Code propre et structuré</b> avec Visual Studio, VS Code, IntelliJ, Android Studio</li>
                   <li><b>Performance et optimisation</b> avec Java, C++, Shell, Arduino et SQL</li>
-                  <li><b>Polyvalence technologique</b> : Symfony, Django, Spring Boot, Angular, PHP, Python, C#, .NET</li>
+                  <li><b>Polyvalence technologique</b> : Symfony, Django, Spring Boot, Angular, React, PHP, Python, C#, .NET</li>
                   <li><b>Modélisation et conception</b> avec UML, PowerAMC, StarUML</li>
                   <li><b>Maîtrise des bases de données</b> : Oracle, MySQL, SQL Server</li>
                   <li>Travail d'équipe, rigueur et organisation</li>
