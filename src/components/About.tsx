@@ -27,7 +27,7 @@ const About = () => {
                 <div className="text-gray-400">projets académiques concrets</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-purple-400">2</div>
+                <div className="text-3xl font-bold text-purple-400">3</div>
                 <div className="text-gray-400">stages professionnels en entreprise</div>
               </div>
               <div className="text-left sm:text-center col-span-2">
