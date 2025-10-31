@@ -7,15 +7,15 @@ const Projects = () => {
     {
       title: "Confort Brand – E-commerce React",
       description: "Plateforme e-commerce moderne développée avec React pour la vente de produits de confort.",
-      technologies: ["React", "JavaScript", "CSS"],
+      technologies: ["React", "Vite"],
       tags: ["React", "E-commerce", "Web"],
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=600&q=80"
     },
     {
-      title: "APT Odoo Invest – ERP Personnalisé",
-      description: "Implémentation et personnalisation d'un système ERP Odoo pour la gestion d'investissements.",
-      technologies: ["Odoo", "Python", "PostgreSQL"],
-      tags: ["Odoo", "ERP", "Investissement"],
+      title: "AFRIQUA POOL TECHNOLOGIE – ERP ODOO APT INVEST",
+      description: "Implémentation des ERP ODOO et développement ODOO APT INVEST. Optimisation ODOO existant et développement de modules ERP personnalisés.",
+      technologies: ["Odoo", "Spring Boot", "MySQL"],
+      tags: ["Odoo", "ERP", "APT INVEST"],
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80"
     },
     {
