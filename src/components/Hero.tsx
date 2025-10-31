@@ -26,12 +26,12 @@ const Hero = () => {
               </h1>
               
               {/* Paragraphes séparés pour meilleure lisibilité */}
-              <div className="space-y-4 md:space-y-6 max-w-2xl md:mx-auto">
+              <div className="space-y-4 md:space-y-6 max-w-2xl md:mx-auto mb-8">
                 <p className="text-lg md:text-2xl text-gray-300">
                   Étudiante en 5e année d'ingénierie informatique (EMSI — option MIAGE), passionnée par le développement d'applications web et mobiles modernes.
                 </p>
                 <p className="text-lg md:text-2xl text-gray-300">
-                  Expériences en optimisation de processus, gestion de stock IT, systèmes embarqués (Arduino) et conception UI/UX.
+                  Spécialisée dans le développement full-stack avec Spring Boot, Django, Symfony et Angular. Experte en implémentation d'ERP Odoo et création d'applications métiers innovantes.
                 </p>
                 <p className="text-lg md:text-2xl text-gray-300">
                   Disponible pour un stage de Projet de Fin d'Études (PFE) à partir de février 2026 à Casablanca.
