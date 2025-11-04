@@ -12,7 +12,7 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=600&q=80"
     },
     {
-      title: "AFRIQUA POOL TECHNOLOGIE – ERP ODOO APT INVEST",
+      title: "AFRIQUA POOL TECHNOLOGIE – ERP ODO0 APT INVEST",
       description: "Implémentation des ERP ODOO et développement ODOO APT INVEST. Optimisation ODOO existant et développement de modules ERP personnalisés.",
       technologies: ["Odoo", "Spring Boot", "MySQL"],
       tags: ["Odoo", "ERP", "APT INVEST"],
