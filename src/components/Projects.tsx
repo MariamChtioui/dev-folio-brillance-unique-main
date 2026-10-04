@@ -5,8 +5,23 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
+      title: "QualiGEDMaster – Plateforme GED / SAE",
+      description: "Plateforme de gestion et d'archivage électronique en microservices : gestion documentaire, workflows BPM, OCR, recherche, audit et traçabilité.",
+      technologies: ["Spring Boot", "Angular", "MySQL", "JWT", "Docker", "Kafka", "MinIO"],
+      tags: ["PFE", "GED", "Microservices"],
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80"
     },
     {
+      title: "SIGM – Patrimoine digital ONHYM",
+      description: "Intégration d'Alfresco Enterprise au système métier via API REST et automatisation de l'extraction des fichiers documentaires. Architecture cible sécurisée avec SSO.",
+      technologies: ["Alfresco", "API REST", "Keycloak", "Nginx"],
+      tags: ["PFE", "ONHYM", "ECM"],
+      image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      title: "AFRIQUA POOL – Modules Odoo et suivi d'activité",
+      description: "Développement de modules Odoo pour le stock, les alertes et les commandes. API Spring Boot et interface React de suivi en temps réel.",
+      technologies: ["Odoo", "Spring Boot", "React"],
       tags: ["Odoo", "ERP", "APT INVEST"],
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80"
     },
@@ -18,6 +33,8 @@ const Projects = () => {
       image: "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&w=600&q=80"
     },
     {
+      title: "Web Voyage – Réservation et paiement",
+      description: "Application de réservation de voyages avec gestion des clients, des réservations et paiement en ligne.",
       technologies: ["Spring Boot", "Angular", "Bootswatch"],
       tags: ["Java", "Angular", "Web"],
       image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80"
@@ -45,6 +62,7 @@ const Projects = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Mes Projets
           </h2>
+          <div className="w-24 h-1 bg-gradient-to-r from-amber-400 to-yellow-400 mx-auto"></div>
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-8">
@@ -72,6 +90,7 @@ const Projects = () => {
                   {project.technologies.map((tech, techIndex) => (
                     <span 
                       key={techIndex}
+                      className="px-3 py-1 text-xs bg-amber-600/20 text-amber-400 rounded-full border border-amber-500/30"
                     >
                       {tech}
                     </span>
@@ -81,6 +100,7 @@ const Projects = () => {
                   {project.tags && project.tags.map((tag, tagIndex) => (
                     <span
                       key={tagIndex}
+                      className="px-2 py-0.5 text-xs bg-slate-700 text-gray-300 rounded-full border border-amber-500/10"
                     >
                       {tag}
                     </span>
