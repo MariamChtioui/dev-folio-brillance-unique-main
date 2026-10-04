@@ -237,6 +237,7 @@ button, input, textarea { font: inherit; }
 .portfolio-shell #formation > div > div > div, .portfolio-shell #certifications > div > div > div { padding: 2rem; border: 0 !important; border-bottom: 1px solid var(--line) !important; border-radius: 0 !important; background: transparent !important; }
 .portfolio-shell #formation > div > div > div:first-child { grid-column: 1 / -1; }
 .portfolio-shell #formation h2, .portfolio-shell #certifications p { color: var(--paper) !important; }
+.portfolio-shell #certifications .certification-number { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 2.5rem; width: 2.5rem; height: 2.5rem; border-radius: 50%; background: #d1b989 !important; color: #242320 !important; font: 600 .78rem "DM Mono", monospace; }
 .portfolio-shell #skills > div > div:first-child { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 1.5rem; }
 .portfolio-shell #skills > div > div:first-child h2 { grid-column: 2; font-size: clamp(2.5rem, 5vw, 4rem); }
 .portfolio-shell #skills > div > div:first-child > div { grid-column: 1 / -1; margin-inline: auto; }
@@ -265,9 +266,9 @@ button, input, textarea { font: inherit; }
   .portfolio-shell #hero > div.relative > div.grid > div:last-child { justify-content: center; }
   .portfolio-shell #hero > div.relative > div.grid > div:last-child > div { width: 100%; min-height: 0; max-width: 26rem; }
   .portfolio-shell #hero > div.relative > div.grid > div:last-child > div > div { min-height: 0; max-height: none; height: 100%; aspect-ratio: auto !important; }
-  .portfolio-shell #experience > div > header, .portfolio-shell #formation > div > header, .portfolio-shell #certifications > div > header { grid-template-columns: 1fr; gap: .75rem; }
-  .portfolio-shell #experience > div > header h1, .portfolio-shell #formation > div > header h1, .portfolio-shell #certifications > div > header h1 { grid-column: 1; grid-row: auto; }
-  .portfolio-shell #experience > div > header > p:last-child { grid-column: 1; }
+  .portfolio-shell #experience > div > header, .portfolio-shell #formation > div > header, .portfolio-shell #certifications > div > header { grid-template-columns: minmax(0, 1fr); gap: .75rem; }
+  .portfolio-shell #experience > div > header > *, .portfolio-shell #formation > div > header > *, .portfolio-shell #certifications > div > header > * { grid-column: 1 !important; grid-row: auto !important; min-width: 0; max-width: 100%; }
+  .portfolio-shell #experience > div > header > p:last-child, .portfolio-shell #formation > div > header > p:last-child, .portfolio-shell #certifications > div > header > p:last-child { grid-column: 1; overflow-wrap: anywhere; }
   .portfolio-shell #experience > div > div > div { grid-template-columns: 1fr 1fr; }
   .portfolio-shell #experience > div > div > div ul { grid-column: 1 / -1; grid-row: auto; }
   .portfolio-shell #projects > div > div:nth-child(2) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -298,6 +299,8 @@ button, input, textarea { font: inherit; }
 }
 
 @media (max-width: 640px) {
+  .portfolio-shell #experience > div > header h1, .portfolio-shell #formation > div > header h1, .portfolio-shell #certifications > div > header h1 { font-size: clamp(2.15rem, 9vw, 3.25rem); line-height: 1.08; overflow-wrap: break-word; }
+  .portfolio-shell #experience > div > header > p:last-child, .portfolio-shell #formation > div > header > p:last-child, .portfolio-shell #certifications > div > header > p:last-child { font-size: .9rem; line-height: 1.55; }
   .portfolio-shell #hero { padding-inline: 1rem; }
   .portfolio-shell #hero > div.relative > div.grid { grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: .65rem; }
   .portfolio-shell #hero h1 { max-width: none; font-size: clamp(1.05rem, 4.2vw, 1.45rem); line-height: 1.06; margin-block: .55rem; letter-spacing: -.055em; }
